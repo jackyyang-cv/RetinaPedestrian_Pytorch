@@ -20,7 +20,7 @@ import torchvision_model
 np.set_printoptions(threshold=np.inf)
 def get_args():
     parser = argparse.ArgumentParser(description="Train program for retinaface.")
-    parser.add_argument('--data_path', type=str, default= "G:\\datasets\\pedestrian" , help='Path for dataset,default WIDERFACE')
+    parser.add_argument('--data_path', type=str, default= "F:\\datasets\\pedestrian" , help='Path for dataset,default WIDERFACE')
     # parser.add_argument('--data_path', type=str, default="G:\\datasets\\face\\widerface",help='Path for dataset,default WIDERFACE')
     parser.add_argument('--batch', type=int, default=8, help='Batch size')
     parser.add_argument('--model_path', type=str, default="G:\\codes\\download\\model_Best_epoch_4.pt" , help='Path for model defalut None')
